@@ -51,11 +51,11 @@ const Login = ({ onLoginSuccessful }) => {
     });
     const body = await loginData.json();
 
-    if (body === true) {
+    if (body.msg === "true") {
       onLoginSuccessful();
     }
-    console.log(body);
-    document.getElementById("resmsg").innerHTML = `${body}`;
+    console.log(body.msg);
+    document.getElementById("resmsg").innerHTML = `${body.msg}`;
   };
 
   useEffect(() => {
