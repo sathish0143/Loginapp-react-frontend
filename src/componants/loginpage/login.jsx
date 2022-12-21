@@ -15,7 +15,7 @@ const Login = ({ onLoginSuccessful }) => {
   const handleSubmit = async (e) => {
     console.log("signup successfull");
     e.preventDefault();
-    const response = await fetch("/user/signup", {
+    const response = await fetch("/signup", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -39,7 +39,7 @@ const Login = ({ onLoginSuccessful }) => {
   const handleLogin = async (e) => {
     e.preventDefault();
     console.log(username);
-    const loginData = await fetch("/user/signin", {
+    const loginData = await fetch("/signin", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

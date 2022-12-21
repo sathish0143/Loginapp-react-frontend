@@ -9,16 +9,16 @@ const Home = ({ onLogout }) => {
       <nav id="navigation">
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a href="https://www.google.com/">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="https://www.google.com/">About</a>
           </li>
           <li>
-            <a href="#">Portfolio</a>
+            <a href="https://www.google.com/">Portfolio</a>
           </li>
           <li>
-            <a href="#">Github</a>
+            <a href="https://www.google.com/">Github</a>
           </li>
           <li>
             <button onClick={handleLogout}>Logout</button>

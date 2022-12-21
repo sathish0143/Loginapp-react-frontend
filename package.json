@@ -15,7 +15,7 @@
     "velocity-animate": "^1.5.2",
     "web-vitals": "^2.1.4"
   },
-  "proxy": "https://react-node-api.onrender.com",
+  "proxy": "https://react-node-api.onrender.com/user/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
