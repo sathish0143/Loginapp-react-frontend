@@ -10,7 +10,6 @@ const Login = ({ onLoginSuccessful }) => {
   const [password, setPassword] = useState("");
   const [userpass, setUserpass] = useState("");
   const [username, setUsername] = useState("");
-  //const [getValue, setgetValue] = useState("");
 
   //!Signup user.. post to server
   const handleSubmit = async (e) => {
